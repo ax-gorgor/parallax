@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+        <title> A.A.C.</title>
+ 
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon/favicon.ico">
+        <script src="https://kit.fontawesome.com/a04ba03d2e.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap" rel="stylesheet">
+
+
+
+</head>
+    
+<body>
+ 
+                 <section class="banner">
+                      <div class="container">
+                          <div id="scene">
+                              <div class="layer" data-depth-x="0.1"><img src="ararat.png" style="z-index: 1;" > </div>
+                              <div class="layer" data-depth-x="0.1"><img src="virab.png"style="z-index: 100; margin-left: 2% ;" > </div>
+                              <div class="layer" data-depth-x="0.05"><img src="pastoClaro.png" style="z-index: 200; margin-top: 0.1%" > </div>
+                              <div class="layer" data-depth="0.1"><img src="lomada.png" style="z-index: 300;" > </div>
+                              <div class="layer" data-depth="0.2"><img src="pastoMedio.png" style="z-index: 400; margin-top: 0.3%"> </div>
+                              <div class="layer" data-depth="0.3"><img src="pastoOscuro.png" style="z-index: 500;"> </div>
+                              <div class="layer" data-depth="0.35"><img src="arboledaGrande.png" style="z-index: 600;"> </div>
+                              <div class="layer" data-depth="0.3"><img src="arboledaChica.png" style="z-index: 700;"> </div>
+                              <div class="layer" data-depth-y="0.2"><img src="nubeGrande.png" style="z-index: 800;"> </div>
+                              <div class="layer" data-depth-y="0.1"><img src="nubeChica.png" style="z-index: 900;"> </div>
+                              <div class="layer" data-depth-x="0.4"><img src="texto.png" style="z-index: 1000;"> </div>
+                           
+
+                      </div>
+                    </div>
+                 </section>
+  
+
+                 <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+                 <script>
+                    var scene = document.getElementById('scene');
+                     var parallaxInstance = new Parallax(scene);
+                 </script>
+</body>
+</html>
